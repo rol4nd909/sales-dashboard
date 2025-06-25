@@ -5,7 +5,6 @@
 // Usage:
 //   import { fetchRevenue, fetchPax } from './fetchers';
 //   const data = await fetchRevenue('2024-01-01', '2024-01-31');
-
 import type { MetricItem } from "./types";
 
 /**

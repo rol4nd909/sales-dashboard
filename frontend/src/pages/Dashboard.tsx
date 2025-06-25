@@ -10,14 +10,14 @@ import { SideMenu } from "~/components/navigation/SideMenu";
 import { datePickersCustomizations } from "~/theme/customizations/datePickers";
 import { chartsCustomizations } from "~/theme/customizations/charts";
 
-const xThemeComponents = {
+const ThemeComponents = {
   ...chartsCustomizations,
   ...datePickersCustomizations,
 };
 
 export function Dashboard() {
   return (
-    <AppTheme themeComponents={xThemeComponents}>
+    <AppTheme themeComponents={ThemeComponents}>
       <CssBaseline enableColorScheme />
 
       <Box sx={{ display: "flex" }}>
