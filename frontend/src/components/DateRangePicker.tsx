@@ -25,7 +25,10 @@ import {
 } from "@mui/x-date-pickers";
 import dayjs, { Dayjs } from "dayjs";
 import CalendarTodayRoundedIcon from "@mui/icons-material/CalendarTodayRounded";
-import { Button, Stack, Typography } from "@mui/material";
+
+import Button from "@mui/material/Button";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 
 // Maximum selectable date is today
 const MAX_DATE = dayjs();

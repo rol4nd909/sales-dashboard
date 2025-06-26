@@ -1,5 +1,7 @@
 import { alpha } from "@mui/material/styles";
-import { Box, CssBaseline, Stack } from "@mui/material";
+import Box from "@mui/material/Box";
+import CssBaseline from "@mui/material/CssBaseline";
+import Stack from "@mui/material/Stack";
 
 import { AppTheme } from "~/theme/AppTheme";
 import { AppNavbar } from "~/components/layout/AppNavbar";

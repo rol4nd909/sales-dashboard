@@ -1,4 +1,4 @@
-import type { Theme } from "@mui/material";
+import type { Theme } from "@mui/material/styles";
 import { axisClasses, chartsGridClasses, legendClasses } from "@mui/x-charts";
 import type { ChartsComponents } from "@mui/x-charts/themeAugmentation";
 import { gray } from "../themePrimitives";

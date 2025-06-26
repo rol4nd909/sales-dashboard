@@ -1,12 +1,10 @@
-import {
-  alpha,
-  outlinedInputClasses,
-  svgIconClasses,
-  toggleButtonClasses,
-  toggleButtonGroupClasses,
-  type Components,
-  type Theme,
-} from "@mui/material";
+import { alpha } from "@mui/material/styles";
+import type { Components, Theme } from "@mui/material/styles";
+
+import { toggleButtonClasses } from "@mui/material/ToggleButton";
+import { toggleButtonGroupClasses } from "@mui/material/ToggleButtonGroup";
+import { outlinedInputClasses } from "@mui/material/OutlinedInput";
+import { svgIconClasses } from "@mui/material/SvgIcon";
 
 import CheckBoxOutlineBlankRoundedIcon from "@mui/icons-material/CheckBoxOutlineBlankRounded";
 import CheckRoundedIcon from "@mui/icons-material/CheckRounded";

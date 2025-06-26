@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import Stack from "@mui/material/Stack";
 
 import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 

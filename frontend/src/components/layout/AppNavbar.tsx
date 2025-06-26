@@ -1,6 +1,10 @@
 import { useState } from "react";
-import { AppBar, Stack, styled, tabsClasses, Typography } from "@mui/material";
+import AppBar from "@mui/material/AppBar";
 import MuiToolbar from "@mui/material/Toolbar";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+import { styled } from "@mui/material/styles";
+import { tabsClasses } from "@mui/material/Tabs";
 
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 

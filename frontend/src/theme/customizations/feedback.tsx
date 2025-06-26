@@ -1,4 +1,6 @@
-import { alpha, type Components, type Theme } from "@mui/material";
+import type { Components, Theme } from "@mui/material/styles";
+import { alpha } from "@mui/material/styles";
+
 import { gray, orange } from "~/theme/themePrimitives";
 
 export const feedbackCustomizations: Components<Theme> = {

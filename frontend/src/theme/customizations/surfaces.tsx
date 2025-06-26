@@ -1,4 +1,5 @@
-import { alpha, type Components, type Theme } from "@mui/material";
+import { alpha } from "@mui/material/styles";
+import type { Components, Theme } from "@mui/material/styles";
 import { gray } from "~/theme/themePrimitives";
 
 export const surfacesCustomizations: Components<Theme> = {

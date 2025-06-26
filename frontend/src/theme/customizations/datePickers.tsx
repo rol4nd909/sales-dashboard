@@ -1,4 +1,7 @@
-import { alpha, menuItemClasses, type Theme } from "@mui/material";
+import { alpha } from "@mui/material/styles";
+import { menuItemClasses } from "@mui/material/MenuItem";
+import type { Theme } from "@mui/material/styles";
+
 import type { PickerComponents } from "@mui/x-date-pickers/themeAugmentation";
 import { brand, gray } from "../themePrimitives";
 import { pickersDayClasses, yearCalendarClasses } from "@mui/x-date-pickers";

@@ -20,19 +20,21 @@
  * Example usage:
  *   <MetricBarChart title="Total Revenue" data={data} loading={loading} error={error} />
  */
-import {
-  Card,
-  CardContent,
-  Typography,
-  Chip,
-  Skeleton,
-  Alert,
-  Stack,
-} from "@mui/material";
+import { useMemo } from "react";
+
+import Alert from "@mui/material/Alert";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Chip from "@mui/material/Chip";
+import Skeleton from "@mui/material/Skeleton";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+
 import { BarChart } from "@mui/x-charts/BarChart";
 import { useTheme } from "@mui/material/styles";
+
 import type { MetricItem } from "~/api/types";
-import { useMemo } from "react";
+
 import { formatValue } from "~/utils/formatValue";
 
 /**

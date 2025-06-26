@@ -1,15 +1,13 @@
 import { forwardRef } from "react";
-import {
-  alpha,
-  buttonBaseClasses,
-  dividerClasses,
-  menuItemClasses,
-  selectClasses,
-  tabClasses,
-  type Components,
-  type SvgIconProps,
-  type Theme,
-} from "@mui/material";
+
+import { alpha } from "@mui/material/styles";
+import type { Components, Theme } from "@mui/material/styles";
+import { buttonBaseClasses } from "@mui/material/ButtonBase";
+import { dividerClasses } from "@mui/material/Divider";
+import { menuItemClasses } from "@mui/material/MenuItem";
+import { selectClasses } from "@mui/material/Select";
+import { tabClasses } from "@mui/material/Tab";
+import type { SvgIconProps } from "@mui/material/SvgIcon";
 
 import UnfoldMoreRoundedIcon from "@mui/icons-material/UnfoldMoreRounded";
 

@@ -17,13 +17,17 @@
  *   <MainGrid />
  */
 import dayjs from "dayjs";
-import { Box, Button, Grid, Stack, Typography } from "@mui/material";
+import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 
 import { DateRangePicker } from "~/components/DateRangePicker";
 import { MetricBarChart } from "~/components/MetricBarChart";
 
 import { useMetricData } from "~/api/useMetricData";
-import { MetricKey, type MetricItem } from "~/api/types";
+import { MetricKey } from "~/api/types";
 import { fetchPax, fetchRevenue } from "~/api/fetchers";
 import { useValidDateRange } from "~/hooks/useValidDateRange";
 import { useSnackbar } from "notistack";
@@ -48,7 +52,7 @@ export function MainGrid() {
     data: revenueData,
     isError: revenueError,
     isLoading: revenueLoading,
-  } = useMetricData<MetricItem[]>({
+  } = useMetricData({
     key: MetricKey.Revenue,
     from: f,
     to: t,
@@ -60,7 +64,7 @@ export function MainGrid() {
     data: paxData,
     isError: paxError,
     isLoading: paxLoading,
-  } = useMetricData<MetricItem[]>({
+  } = useMetricData({
     key: MetricKey.Pax,
     from: f,
     to: t,
